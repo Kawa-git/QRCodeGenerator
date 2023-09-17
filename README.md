@@ -1,4 +1,4 @@
-# EasyToUseQRCodeGenerator
+# QRCodeGenerator
 
 You can use this script to generate custom QRCodes from links.
 
@@ -15,21 +15,21 @@ source <virtualenv_name>/bin/activate
 
 Install requirements:
 ```bash
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
 Generate QRCodes with default name
 ```bash
-python3 qrcodegen.py <link>
+python qrcodegen.py <link>
 ```
 
 Generate QRCodes with custom name
 ```bash
-python3 qrcodegen.py <link> -o Rickroll
+python qrcodegen.py <link> -o Rickroll
 ```
 
 Generate QRCodes with custom complexity
 ```bash
-python3 qrcodegen.py <link> -c 12
+python qrcodegen.py <link> -c 12
 ```
